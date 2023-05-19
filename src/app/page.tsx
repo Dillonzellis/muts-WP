@@ -1,5 +1,7 @@
-import Cards from './components/Cards';
-import Container from './components/Container';
+import CardSection from './(home)/(cards-section)/CardsSection';
+import Services from './(home)/(services)/Services';
+import CTA from './(home)/CTA';
+import Container from './components/(layout)/Container';
 
 export default function Home() {
   return (
@@ -7,8 +9,9 @@ export default function Home() {
       <Container>
         <div>Nav</div>
         <div>Hero</div>
-        <Cards />
-        <div>CTA</div>
+        <CardSection />
+        <CTA />
+        <Services />
         <div>Footer</div>
       </Container>
     </main>
