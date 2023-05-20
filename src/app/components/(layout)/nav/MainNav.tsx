@@ -1,18 +1,17 @@
 import Container from '../Container';
 import NavLink from './NavLink';
+import { navItems } from './data/navItems';
 
 const MainNav = () => {
+  const navLinks = navItems.map((item, index) => {
+    return <NavLink key={index} text={item.text} link={item.link} />;
+  });
+
   return (
     <div className='bg-brandingBlue-400 py-4'>
       <Container>
         <nav>
-          <ul className='flex justify-center gap-24'>
-            <NavLink text='home' link='/' />
-            <NavLink text='accounts' link='accounts' />
-            <NavLink text='borrow' link='borrow' />
-            <NavLink text='solutions' link='solutions' />
-            <NavLink text='about us' link='about-us' />
-          </ul>
+          <ul className='flex justify-center gap-24'>{navLinks}</ul>
         </nav>
       </Container>
     </div>
