@@ -5,7 +5,7 @@ import Container from '../Container';
 
 const MiddleNav = () => {
   return (
-    <div className='bg-white text-black'>
+    <div className='bg-white py-2'>
       <Container>
         <div className='flex justify-between'>
           <Image

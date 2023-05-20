@@ -8,7 +8,6 @@ const nav = () => {
     <div>
       <TopNav />
       <MiddleNav />
-
       <MainNav />
     </div>
   );
