@@ -7,13 +7,11 @@ import Nav from './components/(layout)/nav/Nav';
 export default function Home() {
   return (
     <main>
-      <Nav />
+      <div>Hero</div>
       <Container>
-        <div>Hero</div>
         <CardSection />
         <CTA />
         <Services />
-        <div>Footer</div>
       </Container>
     </main>
   );

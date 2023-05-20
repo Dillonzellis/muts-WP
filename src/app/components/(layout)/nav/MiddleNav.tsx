@@ -7,7 +7,7 @@ const MiddleNav = () => {
   return (
     <div className='bg-white py-2'>
       <Container>
-        <div className='flex justify-between'>
+        <div className='flex items-center justify-between'>
           <Image
             src='https://dev2.growthbydesign.org/wp-content/uploads/Logo.png'
             width={257}

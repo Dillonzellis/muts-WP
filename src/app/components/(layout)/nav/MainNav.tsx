@@ -7,11 +7,11 @@ const MainNav = () => {
       <Container>
         <nav>
           <ul className='flex justify-center gap-24'>
-            <NavLink navLinkText='home' />
-            <NavLink navLinkText='accounts' />
-            <NavLink navLinkText='borrow' />
-            <NavLink navLinkText='solutions' />
-            <NavLink navLinkText='about us' />
+            <NavLink text='home' link='/' />
+            <NavLink text='accounts' link='accounts' />
+            <NavLink text='borrow' link='borrow' />
+            <NavLink text='solutions' link='solutions' />
+            <NavLink text='about us' link='about-us' />
           </ul>
         </nav>
       </Container>

@@ -11,13 +11,17 @@ const TopNav = () => {
             <div>
               <PhoneIcon className='h-6 w-6 text-brandingGreen-400' />
             </div>
-            <div>(800) 771 6695</div>
+            <div>
+              <a href='tel:+18007716695'>(800)-771-6695</a>
+            </div>
           </div>
           <div className='flex gap-4'>
             <div>
               <EnvelopeIcon className='h-6 w-6 text-brandingGreen-400' />
             </div>
-            <div>mutualsavingscu@mutualsavingscu.org</div>
+            <a href='mailto:mutualsavingscu@mutualsavingscu.org'>
+              mutualsavingscu@mutualsavingscu.org
+            </a>
           </div>
         </div>
       </Container>

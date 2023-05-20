@@ -7,7 +7,7 @@ interface ButtonProps {
 
 const Button = ({ btnText, textClass }: ButtonProps) => {
   return (
-    <div className='inline-flex items-center gap-1 border bg-brandingGreen-400 px-8 py-4 text-white'>
+    <div className='inline-flex items-center gap-1 border bg-brandingGreen-400 px-8 py-3 text-white'>
       <div className={textClass}>{btnText}</div>
       <div>
         <ArrowRightIcon className='h-5 w-5' />
