@@ -18,7 +18,7 @@ const Services = () => {
           <CheckItem />
           <CheckItem />
           <CheckItem />
-          <Button btnText='Apply Today' />
+          <Button btnText='Apply Today' link='#' />
         </div>
       </div>
     </ContentSection>
