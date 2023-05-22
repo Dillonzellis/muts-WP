@@ -11,7 +11,7 @@ const MainNav = () => {
     <div className='bg-brandingBlue-400 py-4'>
       <Container>
         <nav>
-          <ul className='flex justify-center gap-24'>{navLinks}</ul>
+          <ul className='justify-center gap-24 lg:flex'>{navLinks}</ul>
         </nav>
       </Container>
     </div>
