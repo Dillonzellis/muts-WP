@@ -5,7 +5,7 @@ import Button from "../components/Button";
 const Hero = () => {
   return (
     <section className="relative">
-      <div className="max-h-[880px]">
+      <div className="">
         <Image
           className="object-cover"
           src="https://dev2.growthbydesign.org/wp-content/uploads/home-hero-plane.jpg"
@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
       <Container>
         <div className="absolute top-1/4 ">
-          <div className="flex max-w-prose flex-col gap-8">
+          <div className="flex max-w-prose flex-col gap-8 text-white">
             <h1 className="text-6xl font-bold">
               We&apos;ll help you pay for that trip to Paradise
             </h1>

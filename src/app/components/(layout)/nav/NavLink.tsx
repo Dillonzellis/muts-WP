@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 interface NavLinkProps {
   text: string;
@@ -7,8 +7,8 @@ interface NavLinkProps {
 
 const NavLink = ({ text, link }: NavLinkProps) => {
   return (
-    <li className='text-lg capitalize'>
-      <Link className='p-4' href={`/${link}`}>
+    <li className="text-lg capitalize text-white">
+      <Link className="p-4" href={`/${link}`}>
         {text}
       </Link>
     </li>
