@@ -18,7 +18,7 @@ const Hero = () => {
       <Container>
         <div className="absolute top-1/4 ">
           <div className="flex max-w-prose flex-col gap-8">
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-6xl font-bold">
               We&apos;ll help you pay for that trip to Paradise
             </h1>
             <p>
