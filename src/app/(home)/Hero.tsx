@@ -7,12 +7,12 @@ const Hero = () => {
     <section className="relative">
       <div className="max-h-[880px]">
         <Image
-          className="max-h-[880px] w-full object-cover"
+          className="object-cover"
           src="https://dev2.growthbydesign.org/wp-content/uploads/home-hero-plane.jpg"
           alt="Hero"
           width={1920}
-          height={880}
-          quality={80}
+          height={1080}
+          quality={100}
         />
       </div>
       <Container>
